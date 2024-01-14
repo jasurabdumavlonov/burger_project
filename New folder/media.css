@@ -1,0 +1,75 @@
+@media (max-width:660px) {
+  
+  .header {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .main {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .full--menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+  }
+
+  .full-item {
+    margin: 0 auto;
+  }
+
+  .people-info {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    justify-content: space-between;
+  }
+
+  .full {
+    margin-bottom: 30px;
+  }
+
+  .people {
+    margin-bottom: 20px;
+  }
+
+  .down {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 570px) {
+  
+}

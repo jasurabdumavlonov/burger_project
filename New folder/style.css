@@ -48,12 +48,13 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
-  max-width: 1142px;
+  max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .navigation {
@@ -129,18 +130,21 @@ margin-bottom: 37px;
 }
 
 .food-menu {
-  padding: 115px 0;
+  margin: 115px 0;
   display: flex;
-  align-items: center;
   gap: 31px;
 }
 
 .food-item {
   width: 262px;
-  height: 323px;
+  min-height: 323px;
   text-align: center;
   border-radius: 10px 10px 0 0;
   background: #312F30;
+}
+
+.food-item img {
+  height: 176px;
 }
 
 .food-item h3 {
@@ -148,14 +152,18 @@ margin-bottom: 37px;
   color: #fff;
   font-size: 20px;
   margin: 28px 0 13px 0;
+  text-align: center;
+  padding: 0px 19px;
 }
 
 .food-item p {
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
   opacity: 0.7;
   margin-bottom: 30px;
+  padding: 0px 19px;
 }
 
 /* ?King */
@@ -226,7 +234,7 @@ font-weight: 400;
 
 .full-item {
   width: 555px;
-  height: 300px;
+  min-height: 300px;
 }
 
 .first {
@@ -259,7 +267,7 @@ font-weight: 400;
 
 .full-text {
   width: 264px;
-  height: 175px;
+  min-height: 175px;
   margin: 63px 0 62px 290px;
 }
 
@@ -299,14 +307,14 @@ font-weight: 400;
   margin-bottom: 194px;
 }
 
-.container-small {
-  margin-left: 498px;
-}
-
 .people-info {
+  margin: 0 auto;
+  max-width: 851px;
+  min-height: 360px;
   display: flex;
-  gap: 118px;
+  /* gap: 118px; */
   align-items: center;
+  justify-content: space-between;
 }
 
 .quote {
@@ -351,8 +359,9 @@ font-weight: 400;
 
 .down {
   display: flex;
-  gap: 422px;
+  /* gap: 422px; */
   align-items: center;
+  justify-content: space-between;
 }
 
 .down h2 {
@@ -385,13 +394,10 @@ font-weight: 400;
 }
 
 .connect {
-  font-size: 12px;
-  opacity: 0.7;
   display: grid;
-  grid-template-columns: 0.5fr 5px;
+  grid-template-columns: 12px 1fr;
   align-content: center;
-  justify-content: center;
-  column-gap: 5px;
+  column-gap: 10px;
 }
 
 .foot-item {
